@@ -2,7 +2,7 @@
 
 https://docs.anaconda.com/miniconda/miniconda-install/
 
-# Run the following commands on the miniconda terminal
+# Run the following commands on the miniconda terminal (nvidia gpu)
 
 ```bash
 
