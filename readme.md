@@ -8,11 +8,11 @@ https://docs.anaconda.com/miniconda/miniconda-install/
 
 conda create --name torch python=3.12.2
 
-conda install -c conda-forge cudatoolkit=12.1 cudnn=8.9.7
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
 conda deactivate
 conda activate torch
+
+conda install -c conda-forge cudatoolkit=12.1 cudnn=8.9.7
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 conda update Pillow
 
